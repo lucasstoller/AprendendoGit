@@ -1,0 +1,48 @@
+1. Como fazer com que o git ignore arquivos?
+	Para fazer com que o git ignore arquivos do seu diretório é só criar um arquivo .gitignore dentro do diretório. Abra este arquivo e coloque em casa linha os nomes e ext. dos arquivos que deseja que o git ignore.
+
+2. Como Saber quais as alterações foram feitas no arquivo? 
+	2.1) Working Area: git diff
+	2.2) Staged Area: git diff --staged
+
+3. Como visualizar commits? 
+	R.: git log
+	git log -p
+	git log -n (n igual a numero de commits)
+		
+	obs: A primeira linha contêm o código para recuperar a versão do arquivo.
+
+4. Atalhos para o GUI do git: gitk ou gitg
+
+5. git log --prety=oneline -> Mostra o git log somente com as descrições.
+
+6. Como editar último commit feito?
+	R.: Alteres os arquivos desejados e adicione ao git (git add .);
+	Commit através do comando git commit --amend -m "Nome (edição)"
+
+7. Para remover um arquivo da stage area use o comando: git reset HEAD <arquivo>
+
+8. Se você remover um arquivo, use git rm <arquivo> para remover do git támbem.
+
+9. Use git checkout -- <arquivo> para restaurar o arquivo.
+
+10. TAGS
+	git tag -a v0.0 -m "digite uma msg"
+	git tag -a v0.0 <numero do commit> -m "digite uma msg"
+	git show <tag>
+	git checkout <tag> || git checkout master (pra voltar pro normal)
+	git tag -d <tag> (Deletar uma tag)
+
+11. BRANCHES: Servem para criar novos ambientes de desenvolvimento para testes, debug, desenvolvimento e etc.
+	git branch (lista todos os branches)
+	git branch <nome> (cria um novo branch)
+	git checkout <branch>
+	git merge <branch origem> (!!Faz um merge do branch de origem para o branch atual!!)
+	git branch -d <branch> (deleta o branch)
+
+12. GitHub:
+	git clone <ssh> <nome do repositorio na sua maq.>
+	git push <origin> <master> (faz um push pro server do github)
+	git pull <origin> <master> (atualiza repositorio)
+	
+
