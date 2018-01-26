@@ -45,4 +45,7 @@
 	git push <origin> <master> (faz um push pro server do github)
 	git pull <origin> <master> (atualiza repositorio)
 	
-
+13. Colabore || GitHub:
+	fork: Procedimento para clonar um repositório que você deseja colaborar para dentro da sua conta no GitHub.
+	PullRequest: Depois de alterar e incrementar coisas ao repositórios você enviar tudo para o dono do projeto avaliar e decidir se vai colocar sua contribuição no projeto.
+	
