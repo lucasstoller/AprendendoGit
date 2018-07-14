@@ -1,3 +1,8 @@
+Como configurar o git?
+	git config --global user.name "usuario"
+	git config --global user.email "email"
+obs: Ao fazer isso e dar um 'ls -a' você verá que um arquivo ".gitconfig" foi criado.	
+
 1. Como fazer com que o git ignore arquivos?
 	Para fazer com que o git ignore arquivos do seu diretório é só criar um arquivo .gitignore dentro do diretório. Abra este arquivo e coloque em casa linha os nomes e ext. dos arquivos que deseja que o git ignore.
 
@@ -48,4 +53,9 @@
 13. Colabore || GitHub:
 	fork: Procedimento para clonar um repositório que você deseja colaborar para dentro da sua conta no GitHub.
 	PullRequest: Depois de alterar e incrementar coisas ao repositórios você enviar tudo para o dono do projeto avaliar e decidir se vai colocar sua contribuição no projeto.
-	
+
+14. como clonar repositorios do github:
+	git clone "endereço https"
+	digitar usuario
+	digitar senha
+
